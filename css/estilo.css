@@ -1,0 +1,151 @@
+h1 {
+    color: blueviolet;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    background-color: red;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px; 
+    font-size: 30px;
+}
+
+footer {
+    background-color: brown;
+    font-size: 20px;
+}
+
+.carta {
+    display: table-cell;
+    padding: 15px;
+    border-radius: 50px;
+}
+.imgtyc {
+    border-radius: 10px;
+}
+
+.img_index {
+    background-size: cover;
+    width: 1300px;
+    height: 80vh;
+}
+.azul {
+    background-color: brown;
+}
+.imglogo{
+    width: 150px;
+}
+.carrousel-img{
+    height: 600px;
+    width: 100;
+}
+.backgtound-carousel {
+    background: black !important;
+    width: 109px !important;
+}
+.container .card {
+    width: 338px;
+    height: 430px;
+    border-radius: 8px;
+    margin: 20px;  
+    text-align: center;
+    transition: all 0.25s;
+}
+.container .card:hover {
+    transform: translate(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0,2);
+}
+.container .card img {
+    width: 330px;
+    height: 220px; 
+}
+.container .card h4 {
+    font-weight: 600;
+}
+.container .card p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300px;
+}
+.caja {
+    border: 1px solid rgb(red, green, blue);
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;  
+}
+
+.caja_padre {
+    display: flex;
+    justify-content: space-around;
+    object-fit: cover;
+    flex-wrap: wrap;
+    
+}
+.cajitas{
+    object-fit: cover;
+}
+.carouselslidecarousel-fade {
+    display: flex;
+    justify-content: space-around;
+    object-fit: cover;
+    flex-wrap: wrap;
+}
+
+.navbarnavbar-expand-lgbg-body-tertiary {
+    flex-basis: 100%;
+}
+.partinf {
+    display: flex;
+    justify-content: space-between;
+   
+    
+
+}
+.pinf {
+    background-color: brown;
+    margin: 5px;
+    color: white;
+}
+.elian {
+    height: 300px;
+    width: 300px;
+}
+
+.card_person {
+    padding: 1rem;
+    height: 4rem;
+  }
+
+  .cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    margin-top: 25px;
+    border: 1px solid;
+  }
+
+  @media (min-width: 600px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+  }
